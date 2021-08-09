@@ -17,6 +17,7 @@ function playRound(playerSelection, computerSelection){
                       (lowerPlayerSelection === "scissors" && lowerComputerSelection === "paper") || 
                       (lowerPlayerSelection === "rock"     && lowerComputerSelection === "scissors"); 
     if (equality)
+        console.log("hello");
         return "Equality";
     if (playerWin)
         return "You win ! " + capitalize(playerSelection) + " beats " + capitalize(computerSelection) ;
